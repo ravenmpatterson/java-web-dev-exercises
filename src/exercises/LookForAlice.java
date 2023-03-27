@@ -1,4 +1,4 @@
-package exercises.lsn1datatypes;
+package exercises;
 import java.util.Scanner;
 
 public class LookForAlice {
