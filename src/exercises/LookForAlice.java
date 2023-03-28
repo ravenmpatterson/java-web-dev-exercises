@@ -9,10 +9,12 @@ public class LookForAlice {
                 "'without pictures or conversation?'";
         Scanner input = new Scanner(System.in);
         System.out.println("What word would you like to search for?");
-
+        paragraph = paragraph.toLowerCase();
         String searchTerm = input.nextLine();
+        searchTerm = searchTerm.toLowerCase();
+
         {
-            if (paragraph.toLowerCase().contains(searchTerm.toLowerCase())) {
+            if (paragraph.contains(searchTerm)) {
                 int index = paragraph.indexOf(searchTerm);
                 int length = searchTerm.length();
                 System.out.println("Your search term first appears at index " + index + ". Your term is " + length + " characters long.");
