@@ -13,10 +13,10 @@ public class LookForAlice {
         String searchTerm = input.nextLine();
         {
             if (paragraph.toLowerCase().contains(searchTerm.toLowerCase())) {
-                Integer index = paragraph.indexOf(searchTerm);
-                Integer length = searchTerm.length();
+                int index = paragraph.indexOf(searchTerm);
+                int length = searchTerm.length();
                 System.out.println("Your search term first appears at index " + index + ". Your term is " + length + " characters long.");
-                String modifiedSentence = paragraph.replace(searchTerm, "");
+                String modifiedSentence = paragraph.replace(searchTerm, "___");
                 System.out.println(modifiedSentence);
             } else {
                 System.err.println("Not found");
