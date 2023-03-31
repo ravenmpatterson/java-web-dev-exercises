@@ -1,8 +1,9 @@
 package org.launchcode.java.demos.lsn2controlflowandcollections;
 
 import java.util.ArrayList;
+//do//
 import java.util.Scanner;
-
+//do in need to import Array list and scanner???
 public class ArrayListGradebook {
 
     public static void main(String[] args) {
